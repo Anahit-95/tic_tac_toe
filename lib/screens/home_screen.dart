@@ -68,9 +68,7 @@ class _HomeScreenState extends State<HomeScreen> with StateAddition {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           ImageButton(
-                            onTap: () {
-                              _showResultDialog('draw');
-                            },
+                            onTap: () {},
                             imagePath: 'profile.png',
                           ),
                           ImageButton(
